@@ -147,50 +147,116 @@ span {
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 1028px) {
-  p {
-    padding: 5px 10px 1px 15px;
-  }
+@media (max-width: 780px) {
 
-  .flex-item-right,
-  .flex-item-left {
-    flex: 100%;
-    padding: 10px;
-    margin: 20px 20px 60px 20px;
-  }
+    p {
+      padding: 5px 10px 1px 15px;
+      /* word-wrap: normal; */
+    }
 
-  .flex-item-right-2, .flex-item-middle-2,
-  .flex-item-left-2 {
-    flex: 80%;
-    padding: 0 0 8px 0;
-    margin: 20px 20px 60px 20px;
-  }
+    h5 {
+      /* word-wrap: normal; */
+    }
 
-  .bio-descr {
-    width: 10%;
-    height: auto;
-    margin-left: 50px;
-  }
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+        padding: 10px;
+        margin: 20px 60px 60px 60px;
+    }
+    .flex-item-right-2, .flex-item-middle-2,
+    .flex-item-left-2 {
+        flex: 80%;
+        padding: 0 0 8px 0;
+        margin: 20px 60px 60px 60px;
+    }
 
-  .bio-descr:hover {
-    width: 250%;
-    height: auto;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-  }
+    .bio-descr {
+        width: 8%;
+        height: auto;
 
-  .bio-descr {
-    width: 10%;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 50px;
-  }
+        margin-left: 50px;
+    }
+    .bio-descr:hover {
+        width:100%;
 
-  .bio-descr:hover {
-    width: 5%;
-    height: auto;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-    margin-left: 160px;
-  }
+        height: auto;
+
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .bio-descr {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .bio-descr:hover {
+        width: 5%;
+        height: auto;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+        margin-left: 160px;
+
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    p {
+      padding: 5px 10px 1px 15px;
+      /* word-wrap: normal; */
+    }
+
+    h5 {
+      /* word-wrap: normal; */
+    }
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+        padding: 10px;
+        margin: 20px 20px 60px 20px;
+    }
+    .flex-item-right-2, .flex-item-middle-2,
+    .flex-item-left-2 {
+        flex: 80%;
+        padding: 0 0 8px 0;
+        margin: 20px 20px 60px 20px;
+    }
+
+    .bio-descr {
+        width: 8%;
+        height: auto;
+
+        margin-left: 50px;
+    }
+    .bio-descr:hover {
+        width:100%;
+
+        height: auto;
+
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .bio-descr {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .bio-descr:hover {
+        width: 5%;
+        height: auto;
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+        margin-left: 160px;
+
+    }
+
 }
 
 .cover {
